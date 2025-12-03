@@ -1,9 +1,40 @@
 .box {
-  width: 1000px;                 
-  padding: 20px;                
+  width: 1400px;                 
+  padding: 50px;                
   border: 2px solid;      
   border-radius: 10px;          
   background-color: white;    
   text-align: center;           
   margin: 20px auto; 
+}
+
+h2{
+    color: red;
+    font-size: 80px;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 30px;
+}
+
+body{
+    background-color: lightgrey;
+
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;            /* button size */
+  background-color: #007BFF;      /* button color */
+  color: white;                   /* text color */
+  text-decoration: none;          /* remove underline */
+  border-radius: 5px;             /* rounded corners */
+  font-weight: bold;
+  transition: background 0.3s;    /* smooth hover effect */
+}
+
+.btn:hover {
+  background-color: #0056b3;
+
 }
