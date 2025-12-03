@@ -5,15 +5,9 @@
 
  }
 
- .row {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
+ .introduction{
+    font-family: sans-serif;
+    background-color: aquamarine;
+ }
 
-.row img {
-    width: 250px;   
-    height: 250px;  
-    object-fit: cover;
-    border-radius: 10px;
-}
+
