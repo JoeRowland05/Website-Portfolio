@@ -2,7 +2,8 @@ h1{
     text-align: center;
     color: red;
     text-decoration: underline;
-    font-size: 50px;
+    font-size: 70px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 body, html {
@@ -26,7 +27,11 @@ body, html {
     flex: 1;                
     padding: 40px;
     
+}
 
+.right-column img {
+    width: 400px;
+}
 
 
 

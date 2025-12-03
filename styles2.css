@@ -14,30 +14,32 @@ h2{
     text-decoration: underline;
 }
 
-p{
-    font-size: 30px;
-}
-
 body{
     background-color: lightgrey;
 
 }
 
-.btn {
-  display: inline-block;
-  padding: 30px 40px;            
-  background-color: red;      
-  color: white;                   
-  text-decoration: none;        
-  border-radius: 5px;             
-  font-weight: bold;   
-}
 
-.btn:hover {
-  background-color: red;
-
-}
-
-a{
+.button-container {
     text-align: center;
 }
+
+.btn {
+    display: inline-block; 
+    padding: 20px 30px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 50px;
+    margin-top: -1px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
+
