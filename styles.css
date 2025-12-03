@@ -7,8 +7,26 @@
  }
 
  .introduction{
-    font-family: Georgia, 'Times New Roman', Times, serif
-    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
  }
+
+ h3{
+    font-size: 50px;
+    text-decoration: underline;
+ }
+
+ .row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.row img {
+    width: 250px;   
+    height: 250px;  
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 
