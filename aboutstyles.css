@@ -2,4 +2,19 @@ h1{
     text-align: center;
     color: red;
     text-decoration: underline;
+    font-size: 50px;
 }
+
+
+
+
+
+.container {
+    display: flex;          /* create side-by-side columns */
+    min-height: 100vh;      /* full height of viewport */
+}
+
+.left-column {
+    flex: 1;                /* takes up available space */
+    padding: 40px;
+    background-color: #f5f5f5; 
