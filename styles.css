@@ -6,28 +6,46 @@
 
  }
 
+ hr{
+    background-color: blue;
+ }
+
  .introduction{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
+    
  }
 
  h3{
     font-size: 50px;
     text-decoration: underline;
+    text-align: center;
+    color: red;
  }
 
  .row {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 100px;
 }
 
 .row img {
-    width: 250px;   
-    height: 250px;  
+    width: 350px;   
+    height: 350px;  
     object-fit: cover;
     border-radius: 10px;
+    background-color: WHITE;
 }
+
+.image-container{
+    text-align: left;
+    font-size: 30px;
+    border-spacing: 20px;
+}
+
+body{background-color: lightgrey;}
+
+
 
  
 
