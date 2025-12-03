@@ -25,16 +25,19 @@ body{
 
 .btn {
   display: inline-block;
-  padding: 10px 20px;            /* button size */
-  background-color: #007BFF;      /* button color */
-  color: white;                   /* text color */
-  text-decoration: none;          /* remove underline */
-  border-radius: 5px;             /* rounded corners */
-  font-weight: bold;
-  transition: background 0.3s;    /* smooth hover effect */
+  padding: 10px 20px;            
+  background-color: #007BFF;      
+  color: white;                   
+  text-decoration: none;        
+  border-radius: 5px;             
+  font-weight: bold;   
 }
 
 .btn:hover {
-  background-color: #0056b3;
+  background-color: red;
 
+}
+
+a{
+    text-align: center;
 }
