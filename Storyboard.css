@@ -37,7 +37,7 @@ body{
     border-right: 2px solid #ddd;
 }
 
-.storyboard-img {
+.StoryboardImage {
     max-width: 100%;
     max-height: 90vh;   
     width: auto;
