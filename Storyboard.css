@@ -31,12 +31,11 @@ body {
     object-fit: contain;
 }
 
-.rightpanel {
-    flex: 1;
-    padding: 40px;
-    background: white;
+h2{
+    text-align: right;
 }
 
-.rightpanel h2 {
-    margin-top: 0;
+p{
+    text-align: right;
 }
+
