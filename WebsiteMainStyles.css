@@ -1,7 +1,7 @@
   
 
     
-.box {
+.box{
   width: 1400px;                 
   padding: 50px;                
   border: 2px;      
@@ -23,11 +23,11 @@ body{
 }
 
 
-.button-container {
+.ButtonGroup{
     text-align: center;
 }
 
-.btn {
+.btn{
     display: inline-block; 
     padding: 20px 30px;
     background-color: white;
