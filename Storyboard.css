@@ -15,7 +15,7 @@ body{
     background-color: white;
 }
 
-.storyboard-container{
+.storyboardcollum{
     display: flex;          
     gap: 40px;               
     padding: 20px;
@@ -25,7 +25,7 @@ body{
     max-width: 40%;         
 }
 
-.text-right{
+.textright{
     text-align: left;       
        
 }   
@@ -42,12 +42,12 @@ p, p2, p3{
     }
 
 
-    .text-right{
+    .textright{
         text-align: left;  
         font-size: 20px;
     }
 
-    .storyboard-container{
+    .storyboardcollum{
         gap: 20px;
         padding: 10px;
     }
