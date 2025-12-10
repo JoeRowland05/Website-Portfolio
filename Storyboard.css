@@ -2,7 +2,7 @@ h1{
     text-align: center;
     font-size: 60px;
     text-decoration: underline;
-    color: red  ;
+    color: red;
 }
 
 h2{
@@ -16,7 +16,7 @@ body{
 }
 
 .storyboard-container{
-    display: flex;           
+    display: flex;          
     gap: 40px;               
     padding: 20px;
 }
@@ -34,11 +34,11 @@ p, p2, p3{
    font-size: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px){
 
     .StoryboardImage{
-        max-width: 80%;
-        margin-bottom: 20px;
+        height: auto;
+        width: 100%;
     }
 
 
@@ -48,7 +48,6 @@ p, p2, p3{
     }
 
     .storyboard-container{
-        columns: 10px;;
         gap: 20px;
         padding: 10px;
     }

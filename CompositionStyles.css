@@ -19,14 +19,12 @@
 
  .row {
     display: flex;
-    justify-content: center;
     gap: 100px;
 }
 
 .row img {
     width: 350px;   
     height: 350px;  
-    object-fit: cover;
     border-radius: 10px;
     background-color: WHITE;
 }
@@ -39,6 +37,24 @@
 
 body{background-color: lightgrey;}
 
+@media (max-width:800px){
+
+    .row{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .row img{
+        width: 80%;
+        height: 280px
+    }
+
+    .image-container{
+        font-size: 24px;
+        text-align: center;
+        image-center
+    }
+}
 
 
  

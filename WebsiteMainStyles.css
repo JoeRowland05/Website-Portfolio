@@ -44,7 +44,7 @@ h1{
     font-style: italic;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .box{
         max-width: 90%;
         padding: 20px;
