@@ -33,14 +33,14 @@ body {
 
 .wireframe-img {
     width: 40%;
-    max-width: 600px;
+    max-width: 250px;
     border: 2px solid #ccc;
     border-radius: 8px;
     background: #eee;
 }
 
 .right-panel {
-    background: #fafafa;
+    background: white;
 }
 
 .right-panel h1 {
