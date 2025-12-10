@@ -12,10 +12,10 @@ body {
 
 .container {
     display: flex;
-    min-height: 80vh;  /* allows panels to expand */
+    min-height: 80vh;  
 }
 
-.left-panel {
+.leftpanel {
     flex: 1;
     padding: 40px;
     display: flex;
@@ -31,12 +31,12 @@ body {
     object-fit: contain;
 }
 
-.right-panel {
+.rightpanel {
     flex: 1;
     padding: 40px;
     background: white;
 }
 
-.right-panel h2 {
+.rightpanel h2 {
     margin-top: 0;
 }
