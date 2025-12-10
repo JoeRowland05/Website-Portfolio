@@ -1,35 +1,23 @@
-h1{
+h1 {
     text-align: center;
     font-size: 40px;
-
 }
 
-
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: white;
-    
 }
 
-.container{
+.container {
     display: flex;
-    height: 50vh;
-}
-
-.left-panel{
-    flex: 1;
-    padding: 40px;
-}
-
-.right-panel{
-     flex: 1;
-    padding: 40px;
-
+    min-height: 80vh;  /* allows panels to expand */
 }
 
 .left-panel {
+    flex: 1;
+    padding: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,22 +25,18 @@ body{
     border-right: 2px solid #ddd;
 }
 
-.StoryboardImage {
+.StoryboardImage{
     max-width: 100%;
-    max-height: 90vh;   
-    width: auto;
     height: auto;
     object-fit: contain;
 }
 
 .right-panel {
+    flex: 1;
+    padding: 40px;
     background: white;
 }
 
-.right-panel h1 {
+.right-panel h2 {
     margin-top: 0;
-}
-
-.right-panel ul {
-    margin-top: 20px;
 }
