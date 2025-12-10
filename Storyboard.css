@@ -10,13 +10,19 @@ body {
     background-color: white;
 }
 
+.storyboard-container {
+    display: flex;          
+    align-items: flex-start; 
+    gap: 20px;               
+    padding: 20px;
+}
+
 .StoryboardImage {
-    float: left;        
-    max-width: 40%;
+    max-width: 40%;         
     height: auto;
-    margin-right: 20px;  
 }
 
 .text-right {
-    text-align: right;   
-}
+    text-align: right;       
+    flex: 1;   
+}   
