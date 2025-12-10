@@ -12,7 +12,7 @@ body {
 
 .container {
     display: flex;
-    min-height: 80vh;  
+    min-height: 80vh;       
 }
 
 .leftpanel {
@@ -22,7 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     background: white;
-    border-right: 2px solid #ddd;
+    border-right: 2px solid white;
 }
 
 .StoryboardImage{
@@ -31,11 +31,18 @@ body {
     object-fit: contain;
 }
 
-h2{
-    text-align: right;
+.text-right {
+    text-align: right;   
+    max-width: 70%;      
+    margin-left: auto;   
 }
 
-p{
-    text-align: right;
+.text-right h2 {
+    margin-top: 0;      
 }
+
+.text-right p {
+    line-height: 1.5;   
+}
+
 
