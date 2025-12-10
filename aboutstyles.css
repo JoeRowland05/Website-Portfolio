@@ -33,5 +33,29 @@ body, html {
     width: 400px;
 }
 
+@media (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    
+    .right-column img {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .left-column {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+}
 
 

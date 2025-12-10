@@ -1,18 +1,23 @@
 h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
+    text-decoration: underline;
+    color: red  ;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
 }
 
 body{
-    margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
     background-color: white;
 }
 
 .storyboard-container{
     display: flex;           
-    gap: 20px;               
+    gap: 40px;               
     padding: 20px;
 }
 
@@ -21,10 +26,30 @@ body{
 }
 
 .text-right{
-    text-align: right;       
+    text-align: left;       
        
 }   
 
 p, p2, p3{
    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .StoryboardImage{
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+
+
+    .text-right{
+        text-align: left;  
+        font-size: 20px;
+    }
+
+    .storyboard-container{
+        columns: 10px;;
+        gap: 20px;
+        padding: 10px;
+    }
 }
